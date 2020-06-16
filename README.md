@@ -9,3 +9,5 @@ In the project directory, you can run:
 In the project directory, you can run:
 
 ### `node server.js`
+
+NODE_ENV=production PORT=8989 pm2 start bin/www

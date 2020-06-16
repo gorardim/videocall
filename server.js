@@ -6,7 +6,7 @@ const socket = require("socket.io");
 const io = socket(server);
 
 const users = {};
-const port = 8989;
+const port = 80;
 
 io.on('connection', socket => {
     if (!users[socket.id]) {
